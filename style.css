@@ -17,19 +17,18 @@ h3,h4,h5{
 }
 
 h3{
-    font-family: Gotham Black;
-    font-size: 13px;
-    color: black;
+    font-family: Gotham Medium;
+    font-size: 11px;
 }
 
 h4{
     font-family: Gotham Medium;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 h5{
    font-family: Gotham Light;
-   font-size: 11px;
+   font-size: 9px;
    color: #989898
 }
 
@@ -80,16 +79,31 @@ input{
     margin: 60px auto;
 }
 
-/*
 .product-card{
-    width: 20%;
-    padding: 20px;
-    background: white;
+    margin: 30px 0;
 }
-*/
+
+.product-card-top{
+    margin-top: -10px;
+    z-index: -1;
+}
+
+.product-card-bottom{
+    margin-top: 16px;
+    margin-left: 12px;
+}
+
+.product-label{
+    background: #fbe55a;
+    border-radius: 0 25px 25px 0;
+    width: 5%;
+    padding: 8px 10px;
+    z-index: 10;
+    position: absolute;
+}
 
 .product-picture{
-    width: 60%;
+    width: 100%;
 }
 
 .product-list ul{
@@ -100,11 +114,39 @@ input{
 .product-list ul li{
     background: white;
     width: 20%;
-    margin: 1%;
-    padding: 1.5%;
+    height: 264px;
+    margin: 1.5%;
     float: left;
+    border-radius: 8px;
 }
 
+.product-details{
+    margin: 16px;
+    float: right;
+    border: 1px #f1f1f1 solid;
+    border-radius: 25px;
+    padding: 6px;
+}
+
+.product-details button{
+    border: 0px solid;
+    background: white;
+    color: #434343;
+}
+
+.product-details span{
+    padding: 6px;
+}
+
+.product-details span:nth-child(1){
+    border-right: 1px #f1f1f1 solid;
+}
+
+.product-details span.product-price{
+    font-family: Gotham Black;
+    color: #6d6d6d;
+    font-size: 13px;
+}
 
 
 
