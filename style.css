@@ -41,6 +41,7 @@ header{
 
 header:after{
     display: block;
+    content: "";
     clear: both;
 }
 
@@ -89,6 +90,12 @@ input.search-form_button{
 .product-list{
     width: 80%;
     margin: 60px auto;
+}
+
+.product-list:after{
+    display: block;
+    content: "";
+    clear: both;
 }
 
 .product-card{
@@ -163,9 +170,34 @@ input.search-form_button{
     margin-right: 4px;
 }
 
+footer{
+    background: white;
+    height: 80px;
+}
 
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    font-family: Gotham Light;
+}
 
+.footer ul{
+    list-style-type: none;
+    margin-top: 36px;
+}
 
+.footer ul.copyright{
+    float: left;
+}
+
+.footer ul.social-media{
+    float: right;
+}
+
+.footer ul.social-media li{
+    float: left;
+    margin: 4px;
+}
 
 
 
