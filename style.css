@@ -1,0 +1,115 @@
+* {
+  color: #434343;  
+}
+
+body{
+    background: #f1f1f1;
+}
+
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+
+h3,h4,h5{
+    margin: 0;
+}
+
+h3{
+    font-family: Gotham Black;
+    font-size: 13px;
+    color: black;
+}
+
+h4{
+    font-family: Gotham Medium;
+    font-size: 10px;
+}
+
+h5{
+   font-family: Gotham Light;
+   font-size: 11px;
+   color: #989898
+}
+
+header{
+    
+    background: #c30f42;
+    height: 60px;
+}
+
+header:after{
+    display: block;
+    clear: both;
+}
+
+h1{
+    text-indent: -1000px;
+    float: left;
+}  
+
+nav{
+    margin-top: 20px;
+    float: right;
+}
+
+.nav-bar{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav li{
+    list-style-type: none;
+    float: left;
+    margin: 0 20px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: Gotham Medium;
+}
+
+input{
+    font-family: Gotham Light;
+}
+
+.product-list{
+    width: 80%;
+    margin: 60px auto;
+}
+
+/*
+.product-card{
+    width: 20%;
+    padding: 20px;
+    background: white;
+}
+*/
+
+.product-picture{
+    width: 60%;
+}
+
+.product-list ul{
+    list-style-type: none;
+    float: left;
+}
+
+.product-list ul li{
+    background: white;
+    width: 20%;
+    margin: 1%;
+    padding: 1.5%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
