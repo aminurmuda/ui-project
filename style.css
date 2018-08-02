@@ -423,13 +423,21 @@ img.mySlides {
     background: white;
 }
 
-/*
-.with-bg-size {
-    background-image: url(images/image.jpg);
-    margin: 90px auto;
-    width: 240px;
-    height: 228px;
-    background-position: center;
-     Make the background image cover the area of the <div>, and clip the excess 
-    background-size: cover;
-}*/
+.radio{
+    margin: 6px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    border: 0.5px #434343 solid;
+}
+
+.radio:hover{
+    background: #797979;
+}
+
+.radio-black{
+    background: #434343;
+    color: #434343;
+    background-color: #434343;
+}
