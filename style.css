@@ -18,18 +18,18 @@ h3,h4,h5{
 
 h3{
     font-family: Gotham Medium;
-    font-size: 12px;
+    font-size: 17px;
     margin: 4px 0;
 }
 
 h4{
     font-family: Gotham Medium;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 h5{
    font-family: Gotham Light;
-   font-size: 10px;
+   font-size: 14px;
    color: #989898
 }
 
@@ -79,10 +79,6 @@ input{
     padding: 5px 0;
 }
 
-input.search-form_field{
-    
-}
-
 input.search-form_button{
     padding: 5px 8px;
 }
@@ -105,21 +101,29 @@ input.search-form_button{
 .product-card-top{
     margin-top: -10px;
     z-index: -1;
+    width: 320px;
+    height: 288px;
+}
+
+.product-card-top img{
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .product-card-bottom{
-    margin-top: 16px;
-    margin-left: 18px;
+    margin-top: 30px;
+    margin-left: 16px;
 }
 
 .product-label{
     background: #fbe55a;
     border-radius: 0 25px 25px 0;
-    width: 5%;
-    padding: 8px 22px 8px 14px;
+    width: 4.5%;
+    padding: 8px 24px 6px 14px;
     z-index: 10;
     position: absolute;
-    margin-top: 12px;
+    margin-top: 22px;
 }
 
 .product-picture{
@@ -133,34 +137,33 @@ input.search-form_button{
 
 .product-list ul li{
     background: white;
-    width: 24%;
-    height: 31%;
-    margin: 0.5%;
+    width: 330px;
+    height: 460px;
+    margin: 20px;
     float: left;
     border-radius: 6px;
+}
+
+.product-details{
+    margin-right: 11px;
 }
 
 .product-details button{
     background: white;
     border: 0px solid;
-    margin: 12px 12px;
+    margin: 24px 12px;
     float: right;
     border: 1px #f1f1f1 solid;
     border-radius: 25px;
-    padding: 5px 0px;
+    padding: 8px 0px;
 }
 
 .product-details button span{
-    padding: 6px;
+    padding: 8px 10px;
 }
 
 .product-details button span:nth-child(1){
     border-right: 1px #f1f1f1 solid;
-    width: 40%;
-}
-
-.product-details button span:nth-child(2){
-    width: 50%;
 }
 
 .product-details button span.product-price{
@@ -204,12 +207,12 @@ footer{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 100; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 200px; /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
