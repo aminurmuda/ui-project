@@ -17,13 +17,13 @@ h3,h4,h5{
 
 h3{
     font-family: Gotham Medium;
-    font-size: 14px;
+    font-size: 17px;
     margin: 4px 0;
 }
 
 h4{
     font-family: Gotham Medium;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 h5{
@@ -84,7 +84,7 @@ input.search-form_button{
 }
 
 main{
-    max-width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -104,26 +104,27 @@ main{
 }
 
 .product-card-top{
-    margin-top: -16px;
+    margin-top: -10px;
     z-index: -1;
-    height: 232px;
+    width: 368px;
+    height: 288px;
 }
 
 .product-card-top img{
-    width: 276px;
-    height: 232px;
+    width: 368px;
+    height: 300px;
     object-fit: cover;
 }
 
 .product-card-bottom{
-    margin-top: 18px;
-    margin-left: 12px;
+    margin-top: 30px;
+    margin-left: 16px;
 }
 
 .product-label{
     background: #fbe55a;
     border-radius: 0 25px 25px 0;
-    padding: 8px 16px 6px 12px;
+    padding: 8px 24px 6px 14px;
     z-index: 10;
     position: absolute;
     margin-top: 22px;
@@ -141,7 +142,7 @@ main{
 .product-list ul li{
     background: white;
     width: 23%;
-    height: 364px;
+    height: 484px;
     margin: 1%;
     float: left;
     border-radius: 6px;
