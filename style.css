@@ -407,12 +407,30 @@ section.notes ul li{
     margin-right: 4px;
 }
 
+img.mySlides {
+    margin: 70px auto 10px auto;
+    width: 240px;
+    height: 228px;
+    object-fit: cover;
+}
+
+.product-image_pagination{
+    margin: 20px 33%;
+}
+
+.product-image_pagination button{
+    padding: 0;
+    border: 0px;
+    background: white;
+}
+
+/*
 .with-bg-size {
     background-image: url(images/image.jpg);
     margin: 90px auto;
     width: 240px;
     height: 228px;
     background-position: center;
-    /* Make the background image cover the area of the <div>, and clip the excess */
+     Make the background image cover the area of the <div>, and clip the excess 
     background-size: cover;
-}
+}*/
