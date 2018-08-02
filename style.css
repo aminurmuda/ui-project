@@ -240,9 +240,13 @@ footer{
 }
 
 .product-image-slide{
-    width: 40%;
-    height: 100%;
+    width: 50%;
+    height: 90%;
     float: left;
+}
+
+.product-image-slide img{
+    height: 100%;
 }
 
 .product-information{
@@ -401,4 +405,14 @@ section.notes ul li{
     color: white;
     font-size: 13px;
     margin-right: 4px;
+}
+
+.with-bg-size {
+    background-image: url(images/image.jpg);
+    margin: 90px auto;
+    width: 240px;
+    height: 228px;
+    background-position: center;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
 }
