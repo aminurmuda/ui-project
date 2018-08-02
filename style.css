@@ -138,7 +138,7 @@ input.search-form_button{
 .product-list ul li{
     background: white;
     width: 330px;
-    height: 460px;
+    height: 464px;
     margin: 20px;
     float: left;
     border-radius: 6px;
@@ -155,11 +155,11 @@ input.search-form_button{
     float: right;
     border: 1px #f1f1f1 solid;
     border-radius: 25px;
-    padding: 8px 0px;
+    padding: 10px 0px;
 }
 
 .product-details button span{
-    padding: 8px 10px;
+    padding: 10px 14px;
 }
 
 .product-details button span:nth-child(1){
@@ -207,7 +207,7 @@ footer{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 100; /* Sit on top */
-    padding-top: 200px; /* Location of the box */
+    padding-top: 120px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
@@ -222,8 +222,8 @@ footer{
     background-color: #fefefe;
     margin: auto;
     padding: 20px 20px 40px 0px;
-    width: 480px;
-    height: 360px;
+    width: 920px;
+    height: 640px;
     border-radius: 4px;
 }
 
@@ -254,12 +254,31 @@ footer{
 
 .product-information{
     float: right;
-    width: 40%;
+    margin-right: 5%;
+    width: 36%;
     height: 100%;
 }
 
+.product-information h3{
+    font-family: Gotham Black;
+    font-size: 24px;
+    margin: 4px 0;
+}
+
+.product-information h4{
+    font-family: Gotham Medium;
+    font-size: 22px;
+}
+
+.product-information h5{
+   font-family: Gotham Light;
+   font-size: 18px;
+   color: #989898
+}
+
+
 section.product-name{
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 section.product-price{
@@ -268,9 +287,11 @@ section.product-price{
 
 section.product-description{
     padding: 10px 0;
+    width: 100%;
 }
 
 section.tab{
+    margin-top: 20px;
     border-bottom: 0.5px #ededed solid;
 }
 
@@ -289,9 +310,9 @@ section.tab{
     outline: none;
     cursor: pointer;
     padding: 4px 0px;
-    margin-right: 8px;
+    margin-right: 24px;
     transition: 0.3s;
-    font-size: 10px;
+    font-size: 15px;
     font-family: Gotham Medium;
     border-bottom: 3px transparent solid;
 }
@@ -311,7 +332,7 @@ section.tab{
 /* Style the tab content */
 .tab-content {
     display: none;
-    padding: 6px 8px;
+    padding: 20px 0px;
     border-top: none;
 }
 
@@ -320,9 +341,11 @@ section.tab{
 }
 
 .tab-content ul li{
-    background: url(images/check.svg) no-repeat 0px 1.8px;
+    background: url(images/check.svg) no-repeat 0px 8px;
     line-height: 1.8em;
-    text-indent: 16px;
+    text-indent: 24px;
+    color: #989898;
+    font-size: 16px;
 }
 
 .colors ul{
@@ -332,7 +355,7 @@ section.tab{
 
 .colors ul li{
     float: left;
-    margin: 0 4px;
+    margin: 0 8px;
 }
 
 .colors:after{
@@ -342,27 +365,27 @@ section.tab{
 }
 
 div.radio-black{
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 16px;
     background: #3c3c3c;
-    border-radius: 10px;
-    border: 3px #f7f7f7 solid;
+    border-radius: 16px;
+    border: 4px #f7f7f7 solid;
 }
 
 div.radio-grey{
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 16px;
     background: #dadada;
-    border-radius: 10px;
-    border: 3px #f7f7f7 solid;
+    border-radius: 16px;
+    border: 4px #f7f7f7 solid;
 }
 
 div.radio-gold{
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 16px;
     background: #d8b56a;
-    border-radius: 10px;
-    border: 3px #f7f7f7 solid;
+    border-radius: 16px;
+    border: 4px #f7f7f7 solid;
 }
 
 section.colors{
