@@ -35,35 +35,35 @@ h5{
 header{
     width: 100%;
     background: #c30f42;
+    background: linear-gradient(to right, #c30f42, red, orange, yellow);
     height: 60px;
 }
 
-header:after{
-    display: block;
-    content: "";
-    clear: both;
+.nav-bar{
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1{
-    text-indent: -1000px;
+    font-family: Gotham Black;
+    margin-top: 10px;
     float: left;
 }  
 
-nav{
-    width: 80%;
-    margin-top: 20px;
-    float: right;
+h1 a{
+    text-decoration: none;
+    color: white;
 }
 
-.nav-bar{
-    width: 100%;
-    margin: 0 auto;
+nav{
+    margin-top: 20px;
+    float: right;
 }
 
 header nav li{
     list-style-type: none;
     float: left;
-    margin: 0 20px;
+    margin-left: 20px;
 }
 
 header nav li a{
@@ -79,8 +79,8 @@ input{
     padding: 5px 0;
 }
 
-input.search-form_button{
-    padding: 5px 8px;
+.search-form{
+    margin-top: -5px;
 }
 
 main{
@@ -181,32 +181,11 @@ main{
 }
 
 footer{
+    margin-top: 30px;
+    padding-top: 30px;
     background: white;
-    height: 80px;
-}
-
-.footer{
-    width: 80%;
-    margin: 0 auto;
-    font-family: Gotham Light;
-}
-
-.footer ul{
-    list-style-type: none;
-    margin-top: 36px;
-}
-
-.footer ul.copyright{
-    float: left;
-}
-
-.footer ul.social-media{
-    float: right;
-}
-
-.footer ul.social-media li{
-    float: left;
-    margin: 4px;
+    height: 40px;
+    text-align: center;
 }
 
 /* The Modal (background) */
@@ -261,6 +240,14 @@ footer{
     width: 40%;
     height: 90%;
     float: left;
+}
+
+.product-image-slide .product-label h4{
+    font-size: 18px;
+}
+
+.product-image-slide .product-label{
+    padding: 16px 40px 12px 25px; 
 }
 
 .product-image-slide img{
@@ -372,12 +359,24 @@ section.tab{
 .colors ul li{
     float: left;
     margin: 0 8px;
+    background: none;
+    text-indent: 0;
+}
+
+.colors h5{
+    font-family: Gotham Medium;
+    font-size: 16px;
+    color: #3d3d3d;
 }
 
 .colors:after{
     display: block;
     content: "";
     clear: both;
+}
+
+#tab-features{
+    margin-bottom: 121px;
 }
 
 div.radio-black{
@@ -405,9 +404,9 @@ div.radio-gold{
 }
 
 section.colors{
-    margin: 2px 0;
-    padding: 20px 0;
-    border-bottom: 0.5px #ededed solid;
+    margin-top: 30px;
+    padding: 16px 0;
+    border-top: 0.5px #ededed solid;
 }
 
 section.notes ul{
@@ -512,7 +511,7 @@ img.mySlides {
     }
     
     main{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -611,7 +610,23 @@ img.mySlides {
     }    
 }
 
+@media screen and (max-width: 1050px){
+    main{
+        width: 70%;
+    }   
+}
+
+@media screen and (max-width: 960px){
+    main{
+        width: 71%;
+    }   
+}
+
 @media screen and (max-width: 768px){
+    main{
+        width: 66%
+    }
+    
     .product-information{
         width: 80%;
     }
@@ -628,11 +643,5 @@ img.mySlides {
     .action button span{
         padding: 12px 10px;
     }
-}
-            
-            
-            
-            
-            
-            
+}      
             
