@@ -24,6 +24,13 @@ window.onclick = function(event) {
     }
 }
 
+window.onload = function(){
+    var isBlock = document.getElementById("tab-specification").style.display;
+    if (isBlock == "block"){
+        document.getElementById("tab-specification-title").className += " active";
+    }
+}
+
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");

@@ -221,6 +221,7 @@ footer{
     padding: 20px 20px 40px 0px;
     width: 480px;
     height: 360px;
+    border-radius: 4px;
 }
 
 /* The Close Button */
@@ -246,7 +247,7 @@ footer{
 
 .product-information{
     float: right;
-    width: 50%;
+    width: 40%;
     height: 100%;
 }
 
@@ -270,6 +271,7 @@ section.tab{
 /* Style the tab */
 .tab-title {
     overflow: hidden;
+    border-bottom: 0.5px #ededed solid;
 }
 
 /* Style the buttons inside the tab */
@@ -281,32 +283,96 @@ section.tab{
     outline: none;
     cursor: pointer;
     padding: 4px 0px;
-    margin: 0px 8px;
+    margin-right: 8px;
     transition: 0.3s;
     font-size: 10px;
+    font-family: Gotham Medium;
+    border-bottom: 3px white solid;
 }
 
 /* Change background color of buttons on hover */
 .tab-title button:hover {
+    color: #bbbbbb;
+    border-bottom: 3px #fdf2ad solid;
 }
 
 /* Create an active/current tablink class */
 .tab-title button.active {
     color: #434343;
-    border-bottom: 2px #fbe55a solid;
+    border-bottom: 3px #fbe55a solid;
 }
 
 /* Style the tab content */
 .tab-content {
     display: none;
-    padding: 6px 12px;
+    padding: 6px 8px;
     border-top: none;
+}
+
+.tab-content ul{
+    list-style-type: none;
+}
+
+.tab-content ul li{
+    background: url(images/check.svg) no-repeat 0px 1.8px;
+    line-height: 1.8em;
+    text-indent: 16px;
+}
+
+.colors ul{
+    margin: 10px 0px;
+    list-style-type: none;
+}
+
+.colors ul li{
+    float: left;
+    margin: 0 4px;
+}
+
+.colors:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+div.radio-black{
+    width: 10px;
+    height: 10px;
+    background: #3c3c3c;
+    border-radius: 10px;
+    border: 3px #f7f7f7 solid;
+}
+
+div.radio-grey{
+    width: 10px;
+    height: 10px;
+    background: #dadada;
+    border-radius: 10px;
+    border: 3px #f7f7f7 solid;
+}
+
+div.radio-gold{
+    width: 10px;
+    height: 10px;
+    background: #d8b56a;
+    border-radius: 10px;
+    border: 3px #f7f7f7 solid;
 }
 
 section.colors{
     margin: 10px 0;
     padding: 10px 0;
     border-bottom: 0.5px #ededed solid;
+}
+
+section.notes ul{
+    list-style-type: none;
+}
+
+section.notes ul li{
+    background: url(images/check.svg) no-repeat 0px 1.8px;
+    line-height: 1.8em;
+    text-indent: 16px;
 }
 
 .action{
