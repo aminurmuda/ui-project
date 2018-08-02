@@ -469,7 +469,8 @@ img.mySlides {
 }
 
 .product-image_pagination{
-    margin: 20px 39%;
+    margin: 20px 10px;
+    text-align: center;
 }
 
 .product-image_pagination button{
@@ -575,10 +576,6 @@ img.mySlides {
         width: 90%;
     }
 
-    .product-image_pagination{
-        margin-left: 40%;
-    }
-
     .product-image_pagination div{
         margin: 0px 5px;
     }
@@ -593,8 +590,9 @@ img.mySlides {
     }
 
     section.action{
-        width: 75%;
+        width: 100%;
         margin: 30px auto;
+        text-align: center;
     }
 
     .action button{
@@ -613,29 +611,28 @@ img.mySlides {
     }    
 }
 
-@media screen and (max-width: 480px){
-    .modal-content{
-        height: 1300px;
-    }
-    
+@media screen and (max-width: 768px){
     .product-information{
         width: 80%;
     }
     
     section.action{
         width: 100%;
+        text-align: center;
     }
 
     .action button{
-        background: #3d3d3d;
-        border: 0px solid;
-        border: 1px #f1f1f1 solid;
-        border-radius: 30px;
-        padding: 20px 60px;
+        padding: 12px 10px;
     }
-
-    .action button span.buy-now_button{
-        font-family: Gotham black;
-        color: white;
-        font-size: 18px;
-        padding: 
+    
+    .action button span{
+        padding: 12px 10px;
+    }
+}
+            
+            
+            
+            
+            
+            
+            
