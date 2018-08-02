@@ -264,7 +264,6 @@ section.product-price{
 }
 
 section.product-description{
-    margin: 10px 0;
     padding: 10px 0;
 }
 
@@ -291,7 +290,7 @@ section.tab{
     transition: 0.3s;
     font-size: 10px;
     font-family: Gotham Medium;
-    border-bottom: 3px white solid;
+    border-bottom: 3px transparent solid;
 }
 
 /* Change background color of buttons on hover */
