@@ -134,39 +134,39 @@ input.search-form_button{
 .product-list ul li{
     background: white;
     width: 24%;
-    height: 292px;
+    height: 31%;
     margin: 0.5%;
     float: left;
     border-radius: 6px;
 }
 
-.product-details{
-    margin: 12px 16px;
+.product-details button{
+    background: white;
+    border: 0px solid;
+    margin: 12px 12px;
     float: right;
     border: 1px #f1f1f1 solid;
     border-radius: 25px;
     padding: 5px 0px;
 }
 
-.product-details a{
-    margin: 6px;
-    border: 0px solid;
-    background: white;
-    color: #434343;
-}
-
-.product-details span{
+.product-details button span{
     padding: 6px;
 }
 
-.product-details span:nth-child(1){
+.product-details button span:nth-child(1){
     border-right: 1px #f1f1f1 solid;
+    width: 40%;
 }
 
-.product-details span.product-price{
-    font-family: Gotham Black;
+.product-details button span:nth-child(2){
+    width: 50%;
+}
+
+.product-details button span.product-price{
+    font-family: Gotham black;
     color: #6d6d6d;
-    font-size: 12px;
+    font-size: 13px;
     margin-right: 4px;
 }
 
@@ -219,7 +219,7 @@ footer{
     background-color: #fefefe;
     margin: auto;
     padding: 20px 20px 40px 0px;
-    width: 60%;
+    width: 480px;
     height: 360px;
 }
 
@@ -250,13 +250,89 @@ footer{
     height: 100%;
 }
 
-.product-information .product-details{
-    background: #494949;
+section.product-name{
+    margin-top: 10px;
 }
 
-.product-information .product-buy_button a{
+section.product-price{
+    margin: 5px 0;
+}
+
+section.product-description{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+section.tab{
+    border-bottom: 0.5px #ededed solid;
+}
+
+/* Style the tab */
+.tab-title {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab-title button {
+    background-color: inherit;
+    float: left;
+    color: #d1d1d1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 0px;
+    margin: 0px 8px;
+    transition: 0.3s;
+    font-size: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab-title button:hover {
+}
+
+/* Create an active/current tablink class */
+.tab-title button.active {
+    color: #434343;
+    border-bottom: 2px #fbe55a solid;
+}
+
+/* Style the tab content */
+.tab-content {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+section.colors{
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 0.5px #ededed solid;
+}
+
+.action{
+    float: right
+}
+
+.action button{
+    background: #3d3d3d;
+    border: 0px solid;
+    margin: 12px 12px;
+    border: 1px #f1f1f1 solid;
+    border-radius: 25px;
+    padding: 6px 6px;
+}
+
+.action button span{
+    padding: 6px;
+}
+
+.action button span:nth-child(1){
+    border-right: 0.5px #646464 solid;
+}
+
+.action button span.buy-now_button{
+    font-family: Gotham black;
     color: white;
-    background: #494949;
-    text-decoration: none;
+    font-size: 13px;
+    margin-right: 4px;
 }
-
