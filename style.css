@@ -23,12 +23,12 @@ h3{
 
 h4{
     font-family: Gotham Medium;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 h5{
    font-family: Gotham Light;
-   font-size: 14px;
+   font-size: 12px;
    color: #989898
 }
 
@@ -106,12 +106,12 @@ main{
 .product-card-top{
     margin-top: -16px;
     z-index: -1;
-    height: 232px;
+    height: 220px;
 }
 
 .product-card-top img{
     width: 276px;
-    height: 232px;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -154,15 +154,19 @@ main{
 .product-details button{
     background: white;
     border: 0px solid;
-    margin: 24px 12px;
+    margin: 25px 10px 0px 0px;
     float: right;
     border: 1px #f1f1f1 solid;
     border-radius: 25px;
-    padding: 10px 0px;
+    padding: 6px 0px;
 }
 
 .product-details button span{
-    padding: 10px 14px;
+    padding: 6px 5px;
+}
+
+.product-details img{
+    margin: 0px 8px;
 }
 
 .product-details button span:nth-child(1){
@@ -492,24 +496,20 @@ img.mySlides {
     color: #434343;
     background-color: #434343;
 }
-/*
 
-@media screen and (max-width: 960px){
-    .product-list ul li{
-        width: 330px;
-        margin: 2% 2%
+@media screen and (max-width: 1200px){
+    h3{
+        font-size: 17px;
     }
-
-    .product-card-top img{
-        width: 330px;
-        height: 300px;
-        margin: 0 auto;
-        object-fit: cover;
+    
+    h4{
+        font-size: 13px;
     }
-}
-*/
-
-@media screen and (max-width: 960px){
+    
+    h5{
+        font-size: 14px;
+    }
+    
     main{
         width: 90%;
         margin: 0 auto;
@@ -517,15 +517,44 @@ img.mySlides {
 
     .product-list ul li{
         width: 310px;
+        height: 408px;
         margin: 2% 2%
-    }   
+    }
+    
+    .product-label{
+        padding: 8px 20px 6px 12px;
+    }
+    
+    .product-card-top{
+        height: 258px;
+        margin-top: -16px;
+        z-index: -1;
+    }
 
     .product-card-top img{
         width: 310px;
-        height: 300px;
+        height: 258px;
         object-fit: cover;
     }
 
+    .product-details button{
+        background: white;
+        border: 0px solid;
+        margin: 25px 10px 0px 0px;
+        float: right;
+        border: 1px #f1f1f1 solid;
+        border-radius: 25px;
+        padding: 8px 0px;
+    }
+
+    .product-details button span{
+        padding: 8px 7px;
+    }
+    
+    .product-details img{
+        margin: 0px 8px;
+    }
+    
     .modal{
         padding: 80px 0px !important;
     }
